@@ -8,8 +8,6 @@
 	background-color: #000;
 }
 
-.footer {
-	bottom: 0px;
-	position: absolute;
-	width: 100%;
+div.page-content {
+	min-height: 600px;
 }
