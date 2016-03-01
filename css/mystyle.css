@@ -4,6 +4,10 @@
 	height: 100%;
 }
 
+.banner .container {
+	background-color: #000;
+}
+
 .footer {
 	bottom: 0px;
 	position: absolute;
