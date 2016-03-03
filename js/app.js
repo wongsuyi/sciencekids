@@ -31,6 +31,12 @@ scienceKids.controller('classesController', function($scope, $http, $routeParams
 });
 
 scienceKids.controller('signupController', function($scope, $http, $routeParams) {
+	var iframeEl = document.querySelector("iframe.signup-form");
+	var loadingEl = document.querySelector("div#signup-loading");
+	
+	iframeEl.onload = function () {
+		loadingEl.style.display = "none";
+	}
 });
 
 scienceKids.controller('blogController', function($scope, $http, $routeParams) {

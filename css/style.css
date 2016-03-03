@@ -169,7 +169,7 @@ ul.nav.navbar-nav li a {
 	margin-bottom: 0.3em;
 	font-family: 'Kreon', serif;
 }
-.welcome .main p {
+body .page-content div.welcome .main p {
 	font-size: 1em;
 	color: #fff;
 	width: 60%;

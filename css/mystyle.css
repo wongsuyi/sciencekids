@@ -1,3 +1,20 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Chelsea Market';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v4/qSdzwh2A4BbNemy78sJLfNpTH3z621gHHpxD-3b7j0o.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Chelsea Market';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v4/qSdzwh2A4BbNemy78sJLfBRWMfMQaj_KSrIuqJtfm2o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
 .modal {
 	position: absolute;
 	width: 100%;
@@ -10,4 +27,45 @@
 
 div.page-content {
 	min-height: 600px;
+}
+
+div.banner {
+	min-height: 0px;
+}
+
+body .page-content div.main p {
+	color: rgb(75, 8, 81);
+}
+
+iframe.signup-form {
+	width: 100%;
+	height: 800px;
+	border: 0px;
+}
+div#signup-loading {
+	color: white;
+	font-size: xx-large;
+	text-align: center;
+	width: 100%;
+	margin-top: 300px;
+	position: absolute;
+}
+
+.learnmore .main p {
+	background: rgba(255,255,255,0.9);
+	padding: 10px 20px;
+	margin: 0 auto;
+}
+
+.classes-main {
+    padding: 20px 10px;
+    margin: 0em 0em 1em 0em;
+}
+
+#navbar {
+	font: normal normal bold 24px/1.4em 'Chelsea Market',fantasy;
+}
+
+body {
+	background: url(../rsc/wood-bg.jpg);
 }
