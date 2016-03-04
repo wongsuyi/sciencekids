@@ -47,8 +47,12 @@ div#signup-loading {
 	font-size: xx-large;
 	text-align: center;
 	width: 100%;
-	margin-top: 300px;
+	margin-top: 100px;
 	position: absolute;
+}
+div#signup-loading img {
+	height: 200px;
+	width: 200px;
 }
 
 .learnmore .main p {
