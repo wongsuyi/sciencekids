@@ -32,7 +32,12 @@ scienceKids.controller('classesController', function($scope, $http, $routeParams
 
 scienceKids.controller('signupController', function($scope, $http, $routeParams) {
 	var loadingEl = document.querySelector("div#signup-loading");
+	var loadingEl = document.querySelector("div#signup-loading");
 	
+	iframeEl.onload = function () {
+		loadingEl.style.display = "none";
+	}
+	/*
 	if (loadingEl) {
 		var refreshIntervalId = setInterval(function checkElRender() {
 			var iframeEl = document.querySelector("div.powr-contact-form iframe");
@@ -43,7 +48,7 @@ scienceKids.controller('signupController', function($scope, $http, $routeParams)
 				}
 			}
 		}, 500);
-	}
+	}*/
 });
 
 scienceKids.controller('blogController', function($scope, $http, $routeParams) {
