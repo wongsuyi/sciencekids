@@ -35,7 +35,7 @@ scienceKids.controller('signupController', function($scope, $http, $routeParams)
 	
 	if (loadingEl) {
 		var refreshIntervalId = setInterval(function checkElRender() {
-			var iframeEl = document.querySelector("div.powr-contact-form#27dc3c6c_1457059444114 iframe");
+			var iframeEl = document.querySelector("div.powr-contact-form iframe");
 			if (iframeEl) {
 				clearInterval(refreshIntervalId);
 				iframeEl.onload = function () {
