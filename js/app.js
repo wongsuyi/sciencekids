@@ -33,28 +33,28 @@ scienceKids.controller('classesController', function($scope, $http, $routeParams
 scienceKids.controller('signupController', function($scope, $http, $routeParams) {
 	var loadingEl = document.querySelector("div#signup-loading");
 	var iframeEl = document.querySelector("iframe.signup-form");
+	iframeEl.style.display = "none";
 	
 	if (loadingEl && iframeEl) {
 		iframeEl.onload = function () {
 			loadingEl.style.display = "none";
+			iframeEl.style.display = "block";
 		}
 	}
-	/*
-	if (loadingEl) {
-		var refreshIntervalId = setInterval(function checkElRender() {
-			var iframeEl = document.querySelector("div.powr-contact-form iframe");
-			if (iframeEl) {
-				clearInterval(refreshIntervalId);
-				iframeEl.onload = function () {
-					loadingEl.style.display = "none";
-				}
-			}
-		}, 500);
-	}*/
 });
 
 scienceKids.controller('blogController', function($scope, $http, $routeParams) {
 });
 
 scienceKids.controller('contactController', function($scope, $http, $routeParams) {
+	var loadingEl = document.querySelector("div#contact-loading");
+	var iframeEl = document.querySelector("iframe.contact-map");
+	iframeEl.style.display = "none";
+	
+	if (loadingEl && iframeEl) {
+		iframeEl.onload = function () {
+			loadingEl.style.display = "none";
+			iframeEl.style.display = "block";
+		}
+	}
 });

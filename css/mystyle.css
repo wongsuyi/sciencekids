@@ -92,6 +92,15 @@ div.contact  {
 	height: 420px;
 	border: 1px solid black;
 }
+.contact #contact-loading{
+	height: 420px;
+	width: 52%;
+	position: absolute;
+}
+.contact #contact-loading img{
+	height: 100%;
+	width: 100%;
+}
 
 #navbar {
 	font: normal normal bold 24px/1.4em 'Chelsea Market',fantasy;
