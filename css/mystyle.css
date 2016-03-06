@@ -65,6 +65,33 @@ div#signup-loading img {
     padding: 20px 10px;
     margin: 0em 0em 1em 0em;
 }
+div.contact  {
+	margin: 0 20% 3% 20%;
+	width: 60%;
+	background-color: white;
+	padding: 5px;
+}
+.contact .main {
+	margin: 2% 5%;
+}
+.contact .main h3 {
+	font-size: 2em;
+	color:#A0431B;
+	font-family: 'Kreon', serif;
+	padding-bottom: 3px;
+}
+.contact .main p {
+	text-align: justify;
+	font-size: 1em;
+	color: #000;
+	margin: 0px 10px 10px 10px;
+	line-height: 1.3em;
+}
+.contact .map {
+	margin: 5%;
+	height: 420px;
+	border: 1px solid black;
+}
 
 #navbar {
 	font: normal normal bold 24px/1.4em 'Chelsea Market',fantasy;
