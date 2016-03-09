@@ -62,8 +62,8 @@ div#signup-loading img {
 }
 
 .classes-main {
-    padding: 20px 10px;
-    margin: 0em 0em 1em 0em;
+	padding: 20px 10px;
+	margin: 0em 0em 1em 0em;
 }
 div.contact  {
 	margin: 0 20% 3% 20%;
@@ -101,6 +101,52 @@ div.contact  {
 	height: 100%;
 	width: 100%;
 }
+
+.blog-main {
+	background: #fff;
+	margin: 0em 20% 0em 20%;
+}
+.blog-container {
+	padding: 5%;
+}
+.blog-container .blog-header h3{
+	color: #27A8C7;
+	font: normal normal normal 25px/1.4em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+}
+.blog-container .sub-header{
+	color: #9711A3;
+	font: normal normal normal 12px/1.4em Arial,'ｍｓ ｐゴシック','ms pgothic','돋움',dotum,helvetica,sans-serif;
+}
+.blog-container .blog-content {
+	margin: 10px 0;
+}
+.blog-container .blog-content .blogmain-right p{
+	margin-bottom: 10px;
+}
+.blog-container .blog-content .blogmain-right a.button{
+	font-size: 1em;
+	color: #fff;
+	background: #A0431B;
+	padding: 0.6em 1em;
+	display: block;
+	width: 200px;
+	text-align: center;
+	border-radius: 3px;
+	margin-top: 1.2em;
+	float: left;
+	margin: 20PX 20PX 0 0;
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s, color 0.4s ease 0s;
+	cursor: pointer !important;
+}
+.blog-container .blog-content .blogmain-right a:hover{
+	color: #fff;
+	background: red;
+	border-color: red;
+}
+	
+	
+
+
 
 #navbar {
 	font: normal normal bold 24px/1.4em 'Chelsea Market',fantasy;
