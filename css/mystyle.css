@@ -151,9 +151,6 @@ div.contact  {
 	border-color: red;
 }
 	
-	
-
-
 
 #navbar {
 	font: normal normal bold 24px/1.4em 'Chelsea Market',fantasy;
@@ -161,4 +158,8 @@ div.contact  {
 
 body {
 	background: url(../rsc/wood-bg2.jpg);
+}
+/* override bg image */
+body {
+	background: url(../rsc/wood-bg.jpg);
 }
