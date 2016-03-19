@@ -119,6 +119,13 @@ div.contact  {
 }
 .blog-container .blog-content {
 	margin: 10px 0;
+	line-height: 1.8em;
+}
+.blog-content .paragraph {
+	padding: 10px 0px;
+}
+.blog-content h3 {
+	text-decoration: underline;
 }
 .blog-container .blog-content .blogmain-right p{
 	margin-bottom: 10px;
@@ -153,5 +160,5 @@ div.contact  {
 }
 
 body {
-	background: url(../rsc/wood-bg.jpg);
+	background: url(../rsc/wood-bg2.jpg);
 }
